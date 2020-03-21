@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #151C6A; */
+}
+
+.center_all {
+  max-width: 1139px;
+  height: 56px;
+  margin: 0px auto;
+}
+.ant-tooltip-inner {
+  background-color: white;
+}
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border: none;
+}
+.ant-tooltip-inner {
+  width: fit-content;
+}
+
+.ant-dropdown-menu {
+  width: fit-content;
+}
+.dropdown-actions {
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  width: 300px;
+}
